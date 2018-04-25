@@ -4,7 +4,7 @@ services:
     ports:
       - "8084:8080"
   frontend:
-    image: "bizhop17/se234-lab11-frontend:latest"
+    image: "bizhop17/se234-lab11-client:latest"
     ports:
       - "8083:80"
 version: "3.3"
