@@ -1,0 +1,10 @@
+services:
+  backend:
+    image: "dto80/234-lab11:latest"
+    ports:
+      - "8084:8080"
+  frontend:
+    image: "bizhop17/se234-lab11-frontend:latest"
+    ports:
+      - "8083:80"
+version: "3.3"
