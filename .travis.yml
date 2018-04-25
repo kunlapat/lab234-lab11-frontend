@@ -13,7 +13,7 @@ install:
 - npm run ng-deploy
 - ls -l
 script: 
-- docker build -t bizhop17/se234-lab10-client .
-- docker push bizhop17/se234-lab10-client
+- docker build -t bizhop17/se234-lab11-client .
+- docker push bizhop17/se234-lab11-client
 
 service: docker
